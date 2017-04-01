@@ -1,0 +1,65 @@
+fieldset{
+  padding:.65em .625em .75em;
+}
+body {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+    background-color: #e6e6e6;
+}
+form {
+    font-family: arial;
+    font-size: 20px;
+}
+.alert, .btn {
+    margin:auto;
+
+}
+.alert-ok {
+    font-family: arial;
+    background-color: #99ff99;
+    margin: 20px;
+    width:auto;
+    font-size: 20px;
+    text-align: center;
+}
+.alert-warning {
+    background-color: #ff6666;
+    margin: 20px;
+    width:auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+}
+.adjustments {
+    border: 0px;
+}
+
+label, legend {
+    display:block;
+    margin-top:10px;
+
+}
+img {
+    display: block;
+    margin:auto;
+
+}
+input, textarea, select {
+    display:block;
+    font-size: 20px;
+}
+
+input[type='checkbox'], input[type='radio'] {
+    display:inline;
+}
+
+input[type='checkbox'] + label {
+    display:inline;
+}
+h1 {
+    font-family: arial;
+    margin:auto;
+    text-align: center;
+
+}
