@@ -11,16 +11,18 @@ class ScrabController extends Controller
     private $scrabBingo;
 
     public function allLetters(Request $request) {
-        
-        $this->scrabWord = $request->input('word',null);
+        if($_GET){
+            $this->validate($request, [
+           'word' => 'required|alpha',
+         ]);
+     }
+        $this->scrabWord = $request->input('word','');
         $this->scrabBonus = $request->input('bonus',null);
         $this->scrabBingo = $request->has('bingo');
 
-        if ($this->scrabWord == null) {
-            return view('scrabcount.scrabForm');
-        } else {
-            return $this->countVal($this->scrabWord,$this->scrabBonus,$this->scrabBingo);
-        }
+
+        return $this->countVal($this->scrabWord,$this->scrabBonus,$this->scrabBingo);
+
 
     }
 
@@ -60,8 +62,7 @@ class ScrabController extends Controller
             'scrabWord' => $this->scrabWord,
             'scrabBonus' => $this->scrabBonus,
             'scrabWordVal' => $scrabWordVal,
-            'scrabBingo' => $scrabBingo,
-            'errors' => $errors
+            'scrabBingo' => $scrabBingo
         ]);
 
 }

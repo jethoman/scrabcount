@@ -30,6 +30,7 @@ form {
     text-align: center;
     font-size: 20px;
     font-family: arial;
+    list-style-type: none;
 }
 .adjustments {
     border: 0px;
