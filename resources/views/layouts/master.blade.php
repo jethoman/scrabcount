@@ -14,7 +14,13 @@
 <body>
 
 	<header>
-	<img src="images/letters.jpeg" alt="picture of scrabble letters" width="300">
+		<h1>
+			@yield('bigtext', 'Lets Count Some Letters')
+		</h1>
+		<img
+		src="images/letters.jpeg"
+		alt="picture of scrabble letters"
+		width="300">
 	</header>
 
 	<section>
@@ -22,7 +28,7 @@
 	</section>
 
 	<footer>
-		&copy; {{ date('Y') }}
+		<!-- &copy; {{ date('Y') }} -->
 	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

@@ -1,0 +1,133 @@
+{
+	"A": {
+		"id" : 0,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"B": {
+		"id" : 1,
+		"value" : 3,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"C": {
+		"id" : 2,
+		"value" : 3,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"D": {
+		"id" : 3,
+		"value" : 2,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"E": {
+		"id" : 4,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"F": {
+		"id" : 5,
+		"value" : 4,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"G": {
+		"id" : 6,
+		"value" : 2,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"H": {
+		"id" : 7,
+		"value" : 4,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"I": {
+		"id" : 8,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"J": {
+		"id" : 9,
+		"value" : 8,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"K": {
+		"id" : 10,
+		"value" : 5,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"L": {
+		"id" : 11,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"M": {
+		"id" : 12,
+		"value" : 3,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"N": {
+		"id" : 13,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"O": {
+		"id" : 14,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"P": {
+		"id" : 15,
+		"value" : 3,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"Q": {
+		"id" : 16,
+		"value" : 10,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"R": {
+		"id" : 17,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"S": {
+		"id" : 18,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"T": {
+		"id" : 19,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"U": {
+		"id" : 20,
+		"value" : 1,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"V": {
+		"id" : 21,
+		"value" : 4,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"W": {
+		"id" : 22,
+		"value" : 4,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"X": {
+		"id" : 23,
+		"value" : 8,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"Y": {
+		"id" : 24,
+		"value" : 4,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	},
+	"Z": {
+		"id" : 25,
+		"value" : 10,
+		"cover" : "http://img2.imagesbn.com/p/9780743273565_p0_v4_s114x166.JPG"
+	}
+
+}
