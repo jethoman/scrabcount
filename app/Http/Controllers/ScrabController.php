@@ -15,14 +15,13 @@ class ScrabController extends Controller
             $this->validate($request, [
            'word' => 'required|alpha',
          ]);
-     }
+        }
+
         $this->scrabWord = $request->input('word','');
         $this->scrabBonus = $request->input('bonus',null);
         $this->scrabBingo = $request->has('bingo');
 
-
         return $this->countVal($this->scrabWord,$this->scrabBonus,$this->scrabBingo);
-
 
     }
 
@@ -37,15 +36,15 @@ class ScrabController extends Controller
 
         foreach ($scrabLetters as $entries => $entry) {
         #cycling through my entered word
-        foreach ($alphabet as $letters =>$letter) {
-            # since all of my alphabet is all caps I am converting my entry
-             if (strtoupper($entry)==$letters){
-               $scrabWordVal = $scrabWordVal + $letter['value'];
-               continue;
-             }
-        }
+            foreach ($alphabet as $letters =>$letter) {
+                # since all of my alphabet is all caps I am converting my entry
+                 if (strtoupper($entry)==$letters){
+                   $scrabWordVal = $scrabWordVal + $letter['value'];
+                   continue;
+                 }
+            }
 
-    }
+        }
         if($scrabBonus == 'double')
         {
             $scrabWordVal = $scrabWordVal * 2;
@@ -65,5 +64,5 @@ class ScrabController extends Controller
             'scrabBingo' => $scrabBingo
         ]);
 
-}
-}
+        }
+    }
