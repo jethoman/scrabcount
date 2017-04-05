@@ -3,7 +3,9 @@
 @section('title')
     Scrabblish Word Counter for Scrabble
 @endsection
-
+@section('bigtext')
+    Scrabblish Word Counter for Scrabble
+@endsection
 @section('content')
 @if($scrabWordVal > 0 and (count($errors)==0))
     <div class='alert-ok'>Your word is worth {{$scrabWordVal}} points!</div>
