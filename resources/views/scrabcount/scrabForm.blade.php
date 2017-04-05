@@ -8,9 +8,11 @@
 @endsection
 @section('content')
 @if($scrabWordVal > 0 and (count($errors)==0))
+    <h5>
     <div class='alert-ok'>Your word is worth {{$scrabWordVal}} points!</div>
 @endif
     <div class="alert-warning">
+    </h5>
 @if(count($errors) > 0)
     <ul>
         @foreach ($errors->all() as $error)
