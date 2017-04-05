@@ -23,11 +23,11 @@
 		width="300">
 	</header>
 
-	<section>
-		<div>
-			@yield('content')
-		</div>
-	</section>
+
+	<div>
+		@yield('content')
+	</div>
+
 
 	<footer>
 		<!-- &copy; {{ date('Y') }} -->
