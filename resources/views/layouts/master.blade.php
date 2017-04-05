@@ -24,7 +24,9 @@
 	</header>
 
 	<section>
-		@yield('content')
+		<div>
+			@yield('content')
+		</div>
 	</section>
 
 	<footer>
